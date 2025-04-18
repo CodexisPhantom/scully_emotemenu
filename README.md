@@ -65,6 +65,10 @@ For support join my discord here: https://discord.gg/scully
 
 - Placement system to choose where you do certain emotes
 
+- Walk styles can't be abused to run faster
+
+- Exit emotes
+
 # State Bags
 | State Bag Name | Replicated | Description |
 | ------------- | ------------- | ------------- |
@@ -247,7 +251,7 @@ You can add custom emotes to the menu by using the `addEmoteToMenu` and `addEmot
 
 # Disclaimer & Credits
 
-All custom animations were added with permission from the creators. Credit to the following people for their animations / props:
+All custom animations were added with permission from the creators or were taken from open source projects. Credit to the following people for giving permission to use their animations / props:
 
 - [Dullpear_dev](https://forum.cfx.re/u/dullpear_dev/summary)
 

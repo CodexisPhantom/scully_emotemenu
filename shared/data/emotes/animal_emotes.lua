@@ -52,8 +52,8 @@ return {
                         Bone = 51826,
                         Name = 'prop_big_shit_02',
                         Placement = {
-                            vector3(0.000000, 0.200000, -0.460000),
-                            vector3(0.000000, -20.000000, 0.000000),
+                            vec3(0.0, 0.2, -0.46),
+                            vec3(0.0, -20.0, 0.0),
                         },
                     },
                 },
@@ -75,8 +75,8 @@ return {
                         Bone = 31086,
                         Name = 'ba_prop_battle_glowstick_01',
                         Placement = {
-                            vector3(0.200000, 0.000000, -0.060000),
-                            vector3(90.000000, 0.000000, 0.000000),
+                            vec3(0.2, 0.0, -0.06),
+                            vec3(90.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -92,13 +92,14 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'bdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'ba_prop_battle_glowstick_01',
                         Placement = {
-                            vector3(0.200000, 0.000000, -0.060000),
-                            vector3(90.000000, 0.000000, 0.000000),
+                            vec3(0.2, 0.0, -0.06),
+                            vec3(90.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -179,8 +180,8 @@ return {
                     CanHold = true,
                     Name = 'ent_anim_dog_peeing',
                     Placement = {
-                        vector3(-0.150000, -0.350000, 0.000000),
-                        vector3(0.000000, 90.000000, 180.000000),
+                        vec3(-0.15, -0.35, 0.0),
+                        vec3(0.0, 90.0, 180.0),
                         1.0,
                     },
                     Wait = 3000,
@@ -202,8 +203,8 @@ return {
                     CanHold = true,
                     Name = 'ent_anim_dog_peeing',
                     Placement = {
-                        vector3(0.150000, -0.350000, 0.000000),
-                        vector3(0.000000, 90.000000, 0.000000),
+                        vec3(0.15, -0.35, 0.0),
+                        vec3(0.0, 90.0, 0.0),
                         1.0,
                     },
                     Wait = 3000,
@@ -220,21 +221,22 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'bdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag1',
                         Placement = {
-                            vector3(0.190000, 0.000000, -0.050000),
-                            vector3(100.000000, 90.000000, 0.000000),
+                            vec3(0.19, 0.0, -0.05),
+                            vec3(100.0, 90.0, 0.0),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'lilprideflag1',
                         Placement = {
-                            vector3(0.194000, 0.020000, -0.050000),
-                            vector3(-90.000000, -90.000000, 0.000000),
+                            vec3(0.194, 0.02, -0.05),
+                            vec3(-90.0, -90.0, 0.0),
                         },
                     },
                 },
@@ -251,21 +253,22 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'bdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag2',
                         Placement = {
-                            vector3(0.190000, 0.000000, -0.050000),
-                            vector3(100.000000, 90.000000, 0.000000),
+                            vec3(0.19, 0.0, -0.05),
+                            vec3(100.0, 90.0, 0.0),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'lilprideflag2',
                         Placement = {
-                            vector3(0.194000, 0.020000, -0.050000),
-                            vector3(-90.000000, -90.000000, 0.000000),
+                            vec3(0.194, 0.02, -0.05),
+                            vec3(-90.0, -90.0, 0.0),
                         },
                     },
                 },
@@ -282,21 +285,22 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'bdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag3',
                         Placement = {
-                            vector3(0.190000, 0.000000, -0.050000),
-                            vector3(100.000000, 90.000000, 0.000000),
+                            vec3(0.19, 0.0, -0.05),
+                            vec3(100.0, 90.0, 0.0),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'lilprideflag3',
                         Placement = {
-                            vector3(0.194000, 0.020000, -0.050000),
-                            vector3(-90.000000, -90.000000, 0.000000),
+                            vec3(0.194, 0.02, -0.05),
+                            vec3(-90.0, -90.0, 0.0),
                         },
                     },
                 },
@@ -313,21 +317,22 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'bdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag4',
                         Placement = {
-                            vector3(0.190000, 0.000000, -0.050000),
-                            vector3(100.000000, 90.000000, 0.000000),
+                            vec3(0.19, 0.0, -0.05),
+                            vec3(100.0, 90.0, 0.0),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'lilprideflag4',
                         Placement = {
-                            vector3(0.194000, 0.020000, -0.050000),
-                            vector3(-90.000000, -90.000000, 0.000000),
+                            vec3(0.194, 0.02, -0.05),
+                            vec3(-90.0, -90.0, 0.0),
                         },
                     },
                 },
@@ -344,21 +349,22 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'bdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag5',
                         Placement = {
-                            vector3(0.190000, 0.000000, -0.050000),
-                            vector3(100.000000, 90.000000, 0.000000),
+                            vec3(0.19, 0.0, -0.05),
+                            vec3(100.0, 90.0, 0.0),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'lilprideflag5',
                         Placement = {
-                            vector3(0.194000, 0.020000, -0.050000),
-                            vector3(-90.000000, -90.000000, 0.000000),
+                            vec3(0.194, 0.02, -0.05),
+                            vec3(-90.0, -90.0, 0.0),
                         },
                     },
                 },
@@ -375,21 +381,22 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'bdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag6',
                         Placement = {
-                            vector3(0.190000, 0.000000, -0.050000),
-                            vector3(100.000000, 90.000000, 0.000000),
+                            vec3(0.19, 0.0, -0.05),
+                            vec3(100.0, 90.0, 0.0),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'lilprideflag6',
                         Placement = {
-                            vector3(0.194000, 0.020000, -0.050000),
-                            vector3(-90.000000, -90.000000, 0.000000),
+                            vec3(0.194, 0.02, -0.05),
+                            vec3(-90.0, -90.0, 0.0),
                         },
                     },
                 },
@@ -406,21 +413,22 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'bdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag7',
                         Placement = {
-                            vector3(0.190000, 0.000000, -0.050000),
-                            vector3(100.000000, 90.000000, 0.000000),
+                            vec3(0.19, 0.0, -0.05),
+                            vec3(100.0, 90.0, 0.0),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'lilprideflag7',
                         Placement = {
-                            vector3(0.194000, 0.020000, -0.050000),
-                            vector3(-90.000000, -90.000000, 0.000000),
+                            vec3(0.194, 0.02, -0.05),
+                            vec3(-90.0, -90.0, 0.0),
                         },
                     },
                 },
@@ -437,21 +445,22 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'bdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag8',
                         Placement = {
-                            vector3(0.190000, 0.000000, -0.050000),
-                            vector3(100.000000, 90.000000, 0.000000),
+                            vec3(0.19, 0.0, -0.05),
+                            vec3(100.0, 90.0, 0.0),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'lilprideflag8',
                         Placement = {
-                            vector3(0.194000, 0.020000, -0.050000),
-                            vector3(-90.000000, -90.000000, 0.000000),
+                            vec3(0.194, 0.02, -0.05),
+                            vec3(-90.0, -90.0, 0.0),
                         },
                     },
                 },
@@ -468,21 +477,22 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'bdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag9',
                         Placement = {
-                            vector3(0.190000, 0.000000, -0.050000),
-                            vector3(100.000000, 90.000000, 0.000000),
+                            vec3(0.19, 0.0, -0.05),
+                            vec3(100.0, 90.0, 0.0),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'lilprideflag9',
                         Placement = {
-                            vector3(0.194000, 0.020000, -0.050000),
-                            vector3(-90.000000, -90.000000, 0.000000),
+                            vec3(0.194, 0.02, -0.05),
+                            vec3(-90.0, -90.0, 0.0),
                         },
                     },
                 },
@@ -499,6 +509,7 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'bdogup',
             },
             PedTypes = {'big_dogs'},
         },
@@ -511,6 +522,7 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'bdogupk',
             },
             PedTypes = {'big_dogs'},
         },
@@ -540,8 +552,8 @@ return {
                         Bone = 31086,
                         Name = 'w_am_baseball',
                         Placement = {
-                            vector3(0.150000, -0.050000, 0.000000),
-                            vector3(0.000000, 0.000000, 0.000000),
+                            vec3(0.15, -0.05, 0.0),
+                            vec3(0.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -562,8 +574,8 @@ return {
                         Bone = 31086,
                         Name = 'prop_cs_burger_01',
                         Placement = {
-                            vector3(0.150000, -0.040000, 0.000000),
-                            vector3(-90.000000, 0.000000, 0.000000),
+                            vec3(0.15, -0.04, 0.0),
+                            vec3(-90.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -584,8 +596,8 @@ return {
                         Bone = 31086,
                         Name = 'prop_controller_01',
                         Placement = {
-                            vector3(0.180000, -0.030000, 0.000000),
-                            vector3(-180.000000, 90.000000, 0.000000),
+                            vec3(0.18, -0.03, 0.0),
+                            vec3(-180.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -606,8 +618,8 @@ return {
                         Bone = 31086,
                         Name = 'ba_prop_battle_glowstick_01',
                         Placement = {
-                            vector3(0.150000, -0.030000, 0.000000),
-                            vector3(0.000000, 0.000000, 0.000000),
+                            vec3(0.15, -0.03, 0.0),
+                            vec3(0.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -628,16 +640,16 @@ return {
                         Bone = 31086,
                         Name = 'ba_prop_battle_glowstick_01',
                         Placement = {
-                            vector3(0.150000, -0.030000, 0.000000),
-                            vector3(0.000000, 0.000000, 0.000000),
+                            vec3(0.15, -0.03, 0.0),
+                            vec3(0.0, 0.0, 0.0),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'prop_cs_sol_glasses',
                         Placement = {
-                            vector3(0.050000, 0.030000, 0.000000),
-                            vector3(-100.000000, 90.000000, 0.000000),
+                            vec3(0.05, 0.03, 0.0),
+                            vec3(-100.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -658,16 +670,16 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag1',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'prop_cs_sol_glasses',
                         Placement = {
-                            vector3(0.050000, 0.030000, 0.000000),
-                            vector3(-100.000000, 90.000000, 0.000000),
+                            vec3(0.05, 0.03, 0.0),
+                            vec3(-100.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -689,16 +701,16 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag2',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'prop_cs_sol_glasses',
                         Placement = {
-                            vector3(0.050000, 0.030000, 0.000000),
-                            vector3(-100.000000, 90.000000, 0.000000),
+                            vec3(0.05, 0.03, 0.0),
+                            vec3(-100.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -720,16 +732,16 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag3',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'prop_cs_sol_glasses',
                         Placement = {
-                            vector3(0.050000, 0.030000, 0.000000),
-                            vector3(-100.000000, 90.000000, 0.000000),
+                            vec3(0.05, 0.03, 0.0),
+                            vec3(-100.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -751,16 +763,16 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag4',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'prop_cs_sol_glasses',
                         Placement = {
-                            vector3(0.050000, 0.030000, 0.000000),
-                            vector3(-100.000000, 90.000000, 0.000000),
+                            vec3(0.05, 0.03, 0.0),
+                            vec3(-100.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -782,16 +794,16 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag5',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'prop_cs_sol_glasses',
                         Placement = {
-                            vector3(0.050000, 0.030000, 0.000000),
-                            vector3(-100.000000, 90.000000, 0.000000),
+                            vec3(0.05, 0.03, 0.0),
+                            vec3(-100.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -813,16 +825,16 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag6',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'prop_cs_sol_glasses',
                         Placement = {
-                            vector3(0.050000, 0.030000, 0.000000),
-                            vector3(-100.000000, 90.000000, 0.000000),
+                            vec3(0.05, 0.03, 0.0),
+                            vec3(-100.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -844,16 +856,16 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag7',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'prop_cs_sol_glasses',
                         Placement = {
-                            vector3(0.050000, 0.030000, 0.000000),
-                            vector3(-100.000000, 90.000000, 0.000000),
+                            vec3(0.05, 0.03, 0.0),
+                            vec3(-100.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -875,16 +887,16 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag8',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'prop_cs_sol_glasses',
                         Placement = {
-                            vector3(0.050000, 0.030000, 0.000000),
-                            vector3(-100.000000, 90.000000, 0.000000),
+                            vec3(0.05, 0.03, 0.0),
+                            vec3(-100.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -906,16 +918,16 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag9',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'prop_cs_sol_glasses',
                         Placement = {
-                            vector3(0.050000, 0.030000, 0.000000),
-                            vector3(-100.000000, 90.000000, 0.000000),
+                            vec3(0.05, 0.03, 0.0),
+                            vec3(-100.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -937,8 +949,8 @@ return {
                         Bone = 31086,
                         Name = 'p_banknote_onedollar_s',
                         Placement = {
-                            vector3(0.170000, -0.010000, 0.000000),
-                            vector3(90.000000, 0.000000, 0.000000),
+                            vec3(0.17, -0.01, 0.0),
+                            vec3(90.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -959,8 +971,8 @@ return {
                         Bone = 31086,
                         Name = 'bkr_prop_scrunched_moneypage',
                         Placement = {
-                            vector3(0.170000, 0.000000, 0.000000),
-                            vector3(90.000000, 0.000000, 0.000000),
+                            vec3(0.17, 0.0, 0.0),
+                            vec3(90.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -981,8 +993,8 @@ return {
                         Bone = 31086,
                         Name = 'bkr_prop_money_wrapped_01',
                         Placement = {
-                            vector3(0.170000, -0.010000, 0.000000),
-                            vector3(90.000000, 0.000000, 0.000000),
+                            vec3(0.17, -0.01, 0.0),
+                            vec3(90.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -1003,8 +1015,8 @@ return {
                         Bone = 31086,
                         Name = 'ch_prop_ch_moneybag_01a',
                         Placement = {
-                            vector3(0.120000, -0.200000, 0.000000),
-                            vector3(-80.000000, 90.000000, 0.000000),
+                            vec3(0.12, -0.2, 0.0),
+                            vec3(-80.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -1025,8 +1037,8 @@ return {
                         Bone = 12844,
                         Name = 'w_pi_pistol_luxe',
                         Placement = {
-                            vector3(0.201000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, 0.000000),
+                            vec3(0.201, -0.008, 0.0),
+                            vec3(0.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -1047,8 +1059,8 @@ return {
                         Bone = 31086,
                         Name = 'prop_aviators_01',
                         Placement = {
-                            vector3(0.050000, 0.040000, 0.000000),
-                            vector3(-90.000000, 90.000000, 0.000000),
+                            vec3(0.05, 0.04, 0.0),
+                            vec3(-90.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -1064,13 +1076,14 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'prop_aviators_01',
                         Placement = {
-                            vector3(0.050000, 0.040000, 0.000000),
-                            vector3(-90.000000, 90.000000, 0.000000),
+                            vec3(0.05, 0.04, 0.0),
+                            vec3(-90.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -1091,8 +1104,8 @@ return {
                         Bone = 31086,
                         Name = 'prop_cs_sol_glasses',
                         Placement = {
-                            vector3(0.050000, 0.030000, 0.000000),
-                            vector3(-100.000000, 90.000000, 0.000000),
+                            vec3(0.05, 0.03, 0.0),
+                            vec3(-100.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -1108,13 +1121,14 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'prop_cs_sol_glasses',
                         Placement = {
-                            vector3(0.050000, 0.030000, 0.000000),
-                            vector3(-100.000000, 90.000000, 0.000000),
+                            vec3(0.05, 0.03, 0.0),
+                            vec3(-100.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -1130,13 +1144,14 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
                 Props = {
                     {
                         Bone = 12844,
                         Name = 'w_pi_pistol_luxe',
                         Placement = {
-                            vector3(0.201000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, 0.000000),
+                            vec3(0.201, -0.008, 0.0),
+                            vec3(0.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -1157,16 +1172,16 @@ return {
                         Bone = 31086,
                         Name = 'prop_proxy_hat_01',
                         Placement = {
-                            vector3(0.000000, 0.120000, 0.000000),
-                            vector3(-99.851074, 80.148926, 1.727941),
+                            vec3(0.0, 0.12, 0.0),
+                            vec3(-99.851074, 80.148926, 1.727941),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'prop_aviators_01',
                         Placement = {
-                            vector3(0.050000, 0.040000, 0.000000),
-                            vector3(-90.000000, 90.000000, 0.000000),
+                            vec3(0.05, 0.04, 0.0),
+                            vec3(-90.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -1182,21 +1197,22 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'prop_proxy_hat_01',
                         Placement = {
-                            vector3(0.000000, 0.120000, 0.000000),
-                            vector3(-99.851074, 80.148926, 1.727941),
+                            vec3(0.0, 0.12, 0.0),
+                            vec3(-99.851074, 80.148926, 1.727941),
                         },
                     },
                     {
                         Bone = 31086,
                         Name = 'prop_aviators_01',
                         Placement = {
-                            vector3(0.050000, 0.040000, 0.000000),
-                            vector3(-90.000000, 90.000000, 0.000000),
+                            vec3(0.05, 0.04, 0.0),
+                            vec3(-90.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -1217,8 +1233,8 @@ return {
                         Bone = 31086,
                         Name = 'prop_cs_hotdog_01',
                         Placement = {
-                            vector3(0.130000, -0.025000, 0.000000),
-                            vector3(-88.272057, -9.846586, -0.148856),
+                            vec3(0.13, -0.025, 0.0),
+                            vec3(-88.272057, -9.846586, -0.148856),
                         },
                     },
                 },
@@ -1234,13 +1250,14 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'prop_cs_hotdog_01',
                         Placement = {
-                            vector3(0.130000, -0.025000, 0.000000),
-                            vector3(-88.272057, -9.846586, -0.148856),
+                            vec3(0.13, -0.025, 0.0),
+                            vec3(-88.272057, -9.846586, -0.148856),
                         },
                     },
                 },
@@ -1261,8 +1278,8 @@ return {
                         Bone = 31086,
                         Name = 'ba_prop_battle_sports_helmet',
                         Placement = {
-                            vector3(0.000000, -0.020000, 0.000000),
-                            vector3(-90.000000, 90.000000, 0.000000),
+                            vec3(0.0, -0.02, 0.0),
+                            vec3(-90.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -1283,8 +1300,8 @@ return {
                         Bone = 31086,
                         Name = 'prop_hard_hat_01',
                         Placement = {
-                            vector3(0.000000, 0.130000, 0.000000),
-                            vector3(-90.000000, 90.000000, 0.000000),
+                            vec3(0.0, 0.13, 0.0),
+                            vec3(-90.0, 90.0, 0.0),
                         },
                     },
                 },
@@ -1298,6 +1315,7 @@ return {
             Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
             Options = {
                 Duration = 2000,
+                ExitEmote = 'sdogup',
             },
             PedTypes = {'big_dogs'},
         },
@@ -1315,8 +1333,8 @@ return {
                         Bone = 31086,
                         Name = 'p_ing_microphonel_01',
                         Placement = {
-                            vector3(0.150000, -0.017000, 0.030000),
-                            vector3(0.000000, 0.000000, 0.000000),
+                            vec3(0.15, -0.017, 0.03),
+                            vec3(0.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -1337,8 +1355,8 @@ return {
                     CanHold = true,
                     Name = 'ent_anim_dog_peeing',
                     Placement = {
-                        vector3(-0.010000, -0.170000, 0.090000),
-                        vector3(0.000000, 90.000000, 140.000000),
+                        vec3(-0.01, -0.17, 0.09),
+                        vec3(0.0, 90.0, 140.0),
                         1.0,
                     },
                     Wait = 3000,
@@ -1360,8 +1378,8 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag1',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1383,8 +1401,8 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag2',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1406,8 +1424,8 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag3',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1429,8 +1447,8 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag4',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1452,8 +1470,8 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag5',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1475,8 +1493,8 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag6',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1498,8 +1516,8 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag6',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1521,8 +1539,8 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag7',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1544,8 +1562,8 @@ return {
                         Bone = 31086,
                         Name = 'lilprideflag8',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1562,13 +1580,14 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag1',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1585,13 +1604,14 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag2',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1608,13 +1628,14 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag3',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1631,13 +1652,14 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag4',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1654,13 +1676,14 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag5',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1677,13 +1700,14 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag6',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1700,13 +1724,14 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag7',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1723,13 +1748,14 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag8',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1746,13 +1772,14 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'lilprideflag9',
                         Placement = {
-                            vector3(0.124000, -0.008000, 0.000000),
-                            vector3(0.000000, 0.000000, -74.699898),
+                            vec3(0.124, -0.008, 0.0),
+                            vec3(0.0, 0.0, -74.699898),
                         },
                     },
                 },
@@ -1774,8 +1801,8 @@ return {
                         Bone = 12844,
                         Name = 'prop_single_rose',
                         Placement = {
-                            vector3(0.109000, -0.014000, 0.050000),
-                            vector3(0.000000, 0.000000, 0.000000),
+                            vec3(0.109, -0.014, 0.05),
+                            vec3(0.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -1791,13 +1818,14 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
                 Props = {
                     {
                         Bone = 12844,
                         Name = 'prop_single_rose',
                         Placement = {
-                            vector3(0.109000, -0.014000, 0.050000),
-                            vector3(0.000000, 0.000000, 0.000000),
+                            vec3(0.109, -0.014, 0.05),
+                            vec3(0.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -1825,6 +1853,7 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
             },
             PedTypes = {'small_dogs'},
         },
@@ -1854,8 +1883,8 @@ return {
                         Bone = 31086,
                         Name = 'prop_cs_steak',
                         Placement = {
-                            vector3(0.180000, -0.020000, 0.000000),
-                            vector3(90.000000, 0.000000, 0.000000),
+                            vec3(0.18, -0.02, 0.0),
+                            vec3(90.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -1871,13 +1900,14 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'prop_cs_steak',
                         Placement = {
-                            vector3(0.180000, -0.020000, 0.000000),
-                            vector3(90.000000, 0.000000, 0.000000),
+                            vec3(0.18, -0.02, 0.0),
+                            vec3(90.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -1898,8 +1928,8 @@ return {
                         Bone = 12844,
                         Name = 'w_pi_stungun',
                         Placement = {
-                            vector3(0.140000, -0.010000, 0.000000),
-                            vector3(0.000000, 0.000000, 0.000000),
+                            vec3(0.14, -0.01, 0.0),
+                            vec3(0.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -1908,8 +1938,8 @@ return {
                     AttachToProp = true,
                     Name = 'blood_stungun',
                     Placement = {
-                        vector3(0.208000, 0.000000, 0.000000),
-                        vector3(0.000000, 0.000000, 0.000000),
+                        vec3(0.208, 0.0, 0.0),
+                        vec3(0.0, 0.0, 0.0),
                         1.0,
                     },
                     Wait = 200,
@@ -1931,8 +1961,8 @@ return {
                         Bone = 31086,
                         Name = 'v_ilev_mr_rasberryclean',
                         Placement = {
-                            vector3(0.150000, -0.110000, -0.230000),
-                            vector3(0.000000, 0.000000, 0.000000),
+                            vec3(0.15, -0.11, -0.23),
+                            vec3(0.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -1948,13 +1978,14 @@ return {
                 Flags = {
                     Loop = true,
                 },
+                ExitEmote = 'sdogup',
                 Props = {
                     {
                         Bone = 31086,
                         Name = 'v_ilev_mr_rasberryclean',
                         Placement = {
-                            vector3(0.150000, -0.110000, -0.230000),
-                            vector3(0.000000, 0.000000, 0.000000),
+                            vec3(0.15, -0.11, -0.23),
+                            vec3(0.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -1975,8 +2006,8 @@ return {
                         Bone = 31086,
                         Name = 'prop_tennis_ball',
                         Placement = {
-                            vector3(0.150000, -0.060000, 0.000000),
-                            vector3(0.000000, 0.000000, 0.000000),
+                            vec3(0.15, -0.06, 0.0),
+                            vec3(0.0, 0.0, 0.0),
                         },
                     },
                 },
@@ -1997,8 +2028,8 @@ return {
                         Bone = 31086,
                         Name = 'prop_tennis_rack_01',
                         Placement = {
-                            vector3(0.150000, -0.020000, 0.000000),
-                            vector3(0.000000, 0.000000, -28.000000),
+                            vec3(0.15, -0.02, 0.0),
+                            vec3(0.0, 0.0, -28.0),
                         },
                     },
                 },

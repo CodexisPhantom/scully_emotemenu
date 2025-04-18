@@ -113,7 +113,9 @@ function RegisterMenu()
                         break
                     end
                 end
-            elseif emote.NSFW and Config.enableNSFWEmotes == 'false' then
+            end
+
+            if emote.NSFW and Config.enableNSFWEmotes == 'false' then
                 keepEmote = false
             elseif emote.Gang and not Config.enableGangEmotes then
                 keepEmote = false
@@ -406,7 +408,7 @@ function RegisterRadialMenu()
                 id = 'emotemenu_open',
                 label = locale('open_radial_menu'),
                 icon = 'person-walking',
-                onSelect = 'ToggleMenu'
+                onSelect = ToggleMenu
             },
             {
                 id = 'emotemenu_walks_submenu',
@@ -424,7 +426,7 @@ function RegisterRadialMenu()
                 id = 'emotemenu_cancel',
                 label = locale('cancel'),
                 icon = 'ban',
-                onSelect = 'CancelEmote'
+                onSelect = CancelEmote
             }
         }
     })
@@ -459,8 +461,12 @@ if Config.menuKeybind ~= '' then
     end
 end
 
-RegisterMenu()
+CreateThread(function()
+    Wait(1000)
+    
+    RegisterMenu()
 
-if Config.enableRadialMenu then
-    RegisterRadialMenu()
-end
+    if Config.enableRadialMenu then
+        RegisterRadialMenu()
+    end
+end)
